@@ -1,0 +1,75 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel} 
+\usepackage[latin1]{inputenc}
+\title{Taller de iniciación a la electrónica}
+\author{Jose David Díaz}
+\date{Septiembre 2015}
+\usepackage{natbib}
+\usepackage{graphicx}
+
+\begin{document}
+
+\maketitle
+
+\section{Objetivo}
+El taller de iniciación a la electrónica tendrá dos objetivos fundamentales. El primero,de carácter teórico, consistirá en hacer comprender al participante los fundamentos de los circuitos electrónicos básicos y los componentes que lo forman; mientras que el segundo, de carácter práctico, enseñará a través del montaje del dispositivo "Atari Punk" los procedimientos de soldadora, medición y detección de fallas de placas electrónicas. 
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=1.7]{atari.jpg}
+\caption{Esquema Electrónico del Atari Punk}
+\label{fig:univerise}
+\end{figure}
+\section{Duración del taller}
+El taller tendrá una duración de 3 horas. De acuerdo a los objetivos expuestos dividiremos la sesión en dos partes iguales: una teórica (90 minutos) y otra práctica (90 minutos). 
+\section{Planning}
+\begin{itemize}
+    \item Fundamentos de Electricidad y Electrónica
+\begin{itemize}
+\item Leyes Fundamentales
+\item Componentes Pasivos
+\item Componentes Activos
+\end{itemize}
+    \item Práctica Electrónica
+    \begin{itemize}
+         \item Lectura de un esquema electrónico
+         \item Uso de las herramientas básicas
+         \item Teoría y práctica de la soldadura con estaño
+         \item Montaje del dispositivo Atari Punk
+    \end{itemize}
+    \end{itemize}
+    
+\section{Materiales}
+\begin{itemize}
+    \item Herramientas
+\begin{itemize}
+\item Soldador de Estaño de 30W 220V (punta fina)
+\item Estaño 
+\item Estropajo de acero
+\item Alicates de corte
+\end{itemize}
+    \item Materiales para la construcción del Atari Punk
+\begin{itemize}
+\item PCB positiva a una cara
+\item Agua Oxigenada 110 volúmenes
+\item Salfumán 
+\item Sosa Cáustica 
+\item Brocas de 0,08mm
+\item Papel Vegetal (o de retroproyector)
+\item 2 Resitencias de 1KOHM 1/4 Watio
+\item 1 Resistencia de 4,7KOHM 1/4 Watio
+\item 1 Resistencia de 10KOHM 1/4 Watio
+\item 1 Condensador cerámico 10nF (nanoFaradio)
+\item 1 Condensador cerámico 100nF (nanoFaradio)
+\item 1 Condensador electro. 10uF (microFaradio)
+\item 2 Potenciómetros de 500K lineal
+\item 1 Potenciómetro de 100K logarítmico 
+\item 1 CI LM556
+\item 1 LED 
+\item 1 Clip de bateria de 9 Voltios 
+\item 1 Clavija Hembra Jack 1/4 " (mono)
+\item 1 Interruptor SPST 
+\item 1 Pila de 9 V
+\end{itemize}
+
+\end{document}
